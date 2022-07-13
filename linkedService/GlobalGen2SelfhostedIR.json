@@ -1,0 +1,20 @@
+{
+	"name": "GlobalGen2SelfhostedIR",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"azureCloudType": "AzurePublic",
+			"serviceEndpoint": "https://ella002gen2.blob.core.windows.net/",
+			"tenant": "1001ff28-716b-43e6-aae9-fdd7f55c221c",
+			"servicePrincipalId": "de311a33-81f0-43e1-9ca9-5f1fde9bff71",
+			"accountKind": "StorageV2",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjYzMwZWIzOS01YmM5LTQ5NjAtYjVmMy1iN2QzNGE3Y2FhOTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

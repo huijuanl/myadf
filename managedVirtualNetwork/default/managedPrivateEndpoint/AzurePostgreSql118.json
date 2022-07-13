@@ -1,0 +1,10 @@
+{
+	"name": "AzurePostgreSql118",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/9ca3ef6d-730e-49e4-bd56-535b344a6f54/resourceGroups/sql/providers/Microsoft.DBforPostgreSQL/servers/liapgsql",
+		"groupId": "postgresqlServer",
+		"fqdns": [
+			"liapgsql.postgres.database.chinacloudapi.cn"
+		]
+	}
+}
