@@ -1,0 +1,17 @@
+{
+	"name": "HiveSink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Hive1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "HiveObject",
+		"schema": [],
+		"typeProperties": {
+			"schema": "default",
+			"table": "targetemployee"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

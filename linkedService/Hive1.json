@@ -1,0 +1,22 @@
+{
+	"name": "Hive1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Hive",
+		"typeProperties": {
+			"host": "hadoopcluster0117.azurehdinsight.cn",
+			"port": 443,
+			"authenticationType": "WindowsAzureHDInsightService",
+			"serviceDiscoveryMode": false,
+			"useNativeQuery": false,
+			"username": "admin",
+			"enableSsl": false,
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0MDNhOWJjOC1lN2IzLTRmZWQtYWMyZi1iZWU5Yjk1ZmU5YmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationSelfHostRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

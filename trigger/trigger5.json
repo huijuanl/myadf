@@ -1,0 +1,24 @@
+{
+	"name": "trigger5",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copyfromustochinaeast",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 10,
+				"startTime": "2021-03-23T04:57:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

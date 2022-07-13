@@ -1,0 +1,13 @@
+{
+	"name": "nestle40odbctable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ellanestle40prd",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OdbcTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

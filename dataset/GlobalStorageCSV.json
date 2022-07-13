@@ -1,0 +1,27 @@
+{
+	"name": "GlobalStorageCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GlobalBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "NSL_B_YSHCN03AC1_PRODUCT_MASTER_DLY_23724820211013.txt",
+				"container": "test1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

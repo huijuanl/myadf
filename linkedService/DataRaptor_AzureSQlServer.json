@@ -1,0 +1,17 @@
+{
+	"name": "DataRaptor_AzureSQlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-0RTQOB5;initial catalog=TutorialDB;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMmViYTZmZi00NjdhLTQ0ZDktYmViNy0wMTRmZjg5NjY5NWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationSelfHostRuntime1",
+			"type": "IntegrationRuntimeReference"
+		},
+		"description": "copy data from local sql server test2",
+		"annotations": []
+	}
+}

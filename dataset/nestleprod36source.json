@@ -1,0 +1,16 @@
+{
+	"name": "nestleprod36source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ellanestleodbc",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OdbcTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`dscc_wyeth`.`bf_customerstore_sales`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Hive0125Nestle",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Hive",
+		"typeProperties": {
+			"host": "ha001-nchn-pr-dep-hdi.azurehdinsight.cn",
+			"port": 443,
+			"authenticationType": "WindowsAzureHDInsightService",
+			"serviceDiscoveryMode": false,
+			"useNativeQuery": false,
+			"username": "hdinsightwatchdog ",
+			"enableSsl": false,
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYjMxMWNkNS1lNGU1LTRiNmQtODhmZi1mMzFkOTBkZWJmNTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ==",
+			"enableTEDebugLogging": true
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeVM0202",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

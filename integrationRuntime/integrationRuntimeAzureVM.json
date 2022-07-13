@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntimeAzureVM",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "my vm"
+	}
+}

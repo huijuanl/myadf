@@ -1,0 +1,16 @@
+{
+	"name": "DataRaptor_AzureSQlServerwithout",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-0RTQOB5;initial catalog=TutorialDB;user id=sa"
+		},
+		"connectVia": {
+			"referenceName": "integrationSelfHostRuntime1",
+			"type": "IntegrationRuntimeReference"
+		},
+		"description": "copy data from local sql server test2",
+		"annotations": []
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "myADFTutorialDataFactory",
+	"location": "chinaeast2",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "ba11777d-4567-4dba-af94-092d93e931f8",
+		"tenantId": "954ddad8-66d7-47a8-8f9f-1316152d9587",
+		"userAssignedIdentities": {
+			"/subscriptions/aacc52b0-33ef-45e4-9c10-c8b6a4fdc8ed/resourcegroups/myResourceGroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/lihuijuan_identity": {
+				"clientId": "f9cb6280-e735-440d-aabd-b054d3da8cf8",
+				"principalId": "cbce98fd-ed67-4a81-b787-fd0697e1b2eb"
+			}
+		}
+	}
+}

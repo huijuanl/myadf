@@ -1,0 +1,17 @@
+{
+	"name": "HiveLocalHostIR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Hive0125Nestle",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "HiveObject",
+		"schema": [],
+		"typeProperties": {
+			"schema": "eagle",
+			"table": "error_dwd_fact_iotorder_i_d"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

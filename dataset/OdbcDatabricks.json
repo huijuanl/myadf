@@ -1,0 +1,16 @@
+{
+	"name": "OdbcDatabricks",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OdbcLocalHostDatabricks",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OdbcTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`default`.`targetemployee`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

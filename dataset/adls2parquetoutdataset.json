@@ -1,0 +1,21 @@
+{
+	"name": "adls2parquetoutdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS2ChinaNorth2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "hive",
+				"fileSystem": "adftutorial"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

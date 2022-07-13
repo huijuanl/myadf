@@ -1,0 +1,17 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "adl://ellastoragegen1.azuredatalakestore.net",
+			"azureCloudType": "AzurePublic",
+			"servicePrincipalId": "3f5f5310-9028-48ef-be79-2dbfb38273ba",
+			"tenant": "1001ff28-716b-43e6-aae9-fdd7f55c221c",
+			"subscriptionId": "e33ce832-e41a-4361-96ba-07540e3c5fc9",
+			"resourceGroupName": "",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIk1ZQURGVFVUT1JJQUxEQVRBRkFDVE9SWV9iMmVkMzRkOC0xNWZiLTQxNmMtODhiMC1iMmEzMzc0YjVmODAiDQp9"
+		}
+	}
+}

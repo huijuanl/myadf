@@ -1,0 +1,17 @@
+{
+	"name": "HiveAzureVM",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HiveNestle",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "HiveObject",
+		"schema": [],
+		"typeProperties": {
+			"schema": "default",
+			"table": "employee"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

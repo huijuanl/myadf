@@ -1,0 +1,21 @@
+{
+	"name": "globalusparquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStore1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"fileName": "part-00000-tid-1125441382204268689-48531dbb-da5f-4b79-98d2-88cf9d6c0ccb-62081-1.c000.snappy.parquet",
+				"folderPath": "ellatestfolder/Atlas_12_item/201912"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

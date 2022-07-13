@@ -1,0 +1,22 @@
+{
+	"name": "AzureDatabricks2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-6787735325964875.3.databricks.azure.cn",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/aacc52b0-33ef-45e4-9c10-c8b6a4fdc8ed/resourceGroups/databricks0214group/providers/Microsoft.Databricks/workspaces/newdatabricks0214",
+			"credential": {
+				"referenceName": "credential1",
+				"type": "CredentialReference"
+			},
+			"newClusterNodeType": "Standard_DS3_v2",
+			"newClusterNumOfWorker": "1",
+			"newClusterVersion": "10.4.x-scala2.12",
+			"newClusterInitScripts": [],
+			"clusterOption": "Fixed"
+		}
+	}
+}

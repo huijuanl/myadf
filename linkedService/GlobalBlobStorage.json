@@ -1,0 +1,17 @@
+{
+	"name": "GlobalBlobStorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "rr",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=cs110032000dbabfbc3;",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMmE4NzIxYS1lMzNiLTRiMmEtOGYwZS1hYmMwMjhiZjljN2YiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationSelfHostRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

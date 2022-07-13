@@ -1,0 +1,21 @@
+{
+	"name": "ellanestle40prd",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Odbc",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"authenticationType": "Basic",
+			"userName": "hdinsightwatchdog",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjM2I4ZDhkYy0xYTQyLTRkMWEtYWJjNS03YTY5M2FlYWY4N2YiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeVM0202",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

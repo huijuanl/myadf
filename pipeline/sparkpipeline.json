@@ -1,0 +1,37 @@
+{
+	"name": "sparkpipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Spark1",
+				"type": "HDInsightSpark",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"rootPath": "adftutorial/spark",
+					"entryFilePath": "SparkSimpleApp.jar",
+					"getDebugInfo": "Always",
+					"className": "com.microsoft.spark.example.Test",
+					"sparkJobLinkedService": {
+						"referenceName": "AzureStorageLinkedService",
+						"type": "LinkedServiceReference"
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "HDInsightExistCluster",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2021-08-17T13:59:17Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -1,0 +1,28 @@
+{
+	"name": "trigger3",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"copyPath": "emp.txt"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2020-11-29T05:00:00Z",
+				"endTime": "2020-11-29T05:30:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

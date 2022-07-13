@@ -1,0 +1,16 @@
+{
+	"name": "OdbcTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Odbclocalhost",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OdbcTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`default`.`employee`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

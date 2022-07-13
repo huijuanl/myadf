@@ -1,0 +1,23 @@
+{
+	"name": "HDInsightExistCluster",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HDInsight",
+		"typeProperties": {
+			"clusterUri": "https://ha002-nchn-pr-dep-hdi.azurehdinsight.cn",
+			"userName": "hdinsightwatchdog",
+			"isEspEnabled": false,
+			"fileSystem": "adftutorial",
+			"linkedServiceName": {
+				"referenceName": "AzureBlobStorageChinaNorth2",
+				"type": "LinkedServiceReference"
+			},
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NDY2MzhmMC1mNjJhLTRmM2UtYmQ1YS03MDkyYjJkOTM0OTgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeVM0202",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
